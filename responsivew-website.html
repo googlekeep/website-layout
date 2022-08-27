@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .h1{
+            font-size: 500vw;
+        }
+        .ship-image{
+            width: 100%;
+        }
+        .container-two{
+            display: flex;
+        }
+        .container-two .split{
+            width: 50%;
+        }
+        .split img{
+            width: 100%;
+        }
+
+        @media screen and (max-width:576px) {
+            .container-two{
+                flex-direction: column;
+                flex-direction: column-reverse;
+                
+            }
+            .container-two .split{
+            width: 100%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        1 viewport meta tag
+        2 css relative unit
+        3 responsive image
+        body max-with and margin auto
+     -->
+    <h1>hello world</h1>
+        <section>
+            <h1>cruise ship</h1>
+            <img class="ship-image" src="/images/cruise2.jpg" alt="">
+        </section>
+
+
+        <section>
+            <h1 class="">tow parts</h1>
+            <div class="container-two">
+                <div class="split">
+                    <img src="/images/cruise2.jpg" alt="">
+                </div>
+                <div class="split">
+                    <img src="/images/CRIUSE.jpg" alt="">
+                </div>
+            </div>
+        </section>
+</body>
+</html>
