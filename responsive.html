@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website</title>
+
+    <style>
+        
+        .card{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        
+        }
+        .food{
+            border: 2px solid red;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+
+        @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .card{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+    @media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+    @media only screen and (max-width: 555px){
+        .card{
+            grid-template-columns: repeat (1,1fr);
+        }
+	/*Small smartphones [325px -> 425px]*/
+}
+    </style>
+</head>
+<body>
+    <!-- .container.food*12>img[src="./images/bihar floods.jpg"]+h2{item-$}+p>lorem50 -->
+    <div class="card">
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quas repellat delectus culpa, inventore facere? Illo amet voluptatum earum sequi hic ut vitae? Consectetur, vel, illo assumenda vero id accusantium non dicta corrupti praesentium, veritatis eaque expedita unde nulla. Commodi impedit temporibus modi facere ullam, facilis quaerat aut laboriosam quae.</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-2</h2>
+            <p>Quas similique quisquam numquam voluptatibus minima dolorum laborum veritatis, molestiae deleniti nostrum fuga ratione explicabo excepturi culpa provident enim, suscipit laboriosam fugit quo molestias. Necessitatibus quas repellendus nulla eveniet vel nesciunt iste praesentium vitae consectetur inventore quaerat sed sapiente, quia iusto eaque aperiam. Illo vitae explicabo nemo, laborum eaque adipisci!</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-3</h2>
+            <p>Error ipsam ea dolorum nihil hic nemo rem quos a, sed, distinctio impedit commodi nulla quaerat? Ipsa ad aliquam et quam numquam consectetur cum molestias pariatur amet expedita, quaerat, soluta omnis placeat eaque quidem magnam nesciunt laborum, corporis doloremque aperiam laboriosam aut! Ipsa, labore! Natus magnam sapiente quia debitis reprehenderit.</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-4</h2>
+            <p>Ut aliquam doloremque itaque, eius atque, esse repellendus quis saepe quisquam rerum velit minus repellat porro vel fugiat soluta harum nam asperiores praesentium incidunt consectetur? Iste obcaecati eaque repellendus cum ipsa porro iure quaerat dolorem dignissimos? Possimus doloremque praesentium natus consectetur reprehenderit sed quia, quibusdam maiores consequatur ut, ad vero.</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-5</h2>
+            <p>Necessitatibus distinctio at facilis beatae, veniam, neque dolorum minima quas deserunt illum in libero quos magnam fugit temporibus delectus nulla omnis facere. Cumque distinctio, magni, quos expedita non culpa quia soluta corrupti, accusamus ipsam quidem alias tempora debitis porro qui. Necessitatibus ea, aperiam eaque ducimus fuga eius sed voluptatem consectetur.</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-6</h2>
+            <p>Alias, magnam ullam quisquam suscipit rem voluptates earum amet placeat facilis quaerat labore esse, dolore quas, dignissimos natus consequatur incidunt nostrum magni dolores? Qui ipsam architecto exercitationem cum repellendus quasi laborum distinctio est dolor modi autem repellat at repudiandae unde ipsum quae voluptatem quod assumenda cupiditate ea numquam, soluta consectetur!</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-7</h2>
+            <p>Ipsum possimus provident voluptatum quam, praesentium dignissimos accusantium doloribus quisquam deleniti repellendus eveniet, sapiente recusandae nisi a enim, sequi incidunt sunt quis. Enim, beatae. Atque, facilis excepturi dolor maxime laudantium minima provident illo eius dolore exercitationem veniam, hic ex cumque aspernatur, quaerat odit similique aut sapiente tenetur. Placeat, in voluptatem!</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-8</h2>
+            <p>Ipsam atque beatae perferendis quidem. Dolorum sit id error ab praesentium ad non natus iste nobis voluptas! Similique iusto laudantium voluptatem impedit aut, nesciunt doloremque ad saepe consequatur vitae dolorum molestias quas hic laborum ea minima ipsum sunt rem quia sequi omnis dolorem amet asperiores quo? Quod sed quidem iure!</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-9</h2>
+            <p>Porro ad nisi enim fugiat consectetur eum maxime, nobis, vitae laudantium unde nostrum iure neque aut laboriosam similique libero sed repellendus ipsum voluptas incidunt, ratione voluptatem. Totam dolor excepturi cumque, saepe eum, alias laborum deleniti iure ipsam doloribus mollitia corrupti nesciunt, voluptates laboriosam blanditiis perferendis sint commodi reiciendis maiores error!</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-10</h2>
+            <p>Labore corporis vero quae alias cum, ut, accusantium, quam quod consequatur numquam fugiat esse. Inventore provident, hic rem ab, necessitatibus temporibus praesentium officiis dolore, officia quae aperiam aspernatur doloribus ad qui molestias libero autem. Quia provident amet perspiciatis nemo magnam nam rerum! Similique quia asperiores labore quos, dolores dolorem cupiditate!</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-11</h2>
+            <p>Dolor excepturi eligendi unde eius ipsum quidem numquam neque, eaque totam repudiandae voluptatum expedita perferendis repellat fugit quae sequi cum vel hic praesentium aperiam iusto veniam qui? Voluptatum animi inventore rem, provident quae non voluptatem. Vero eligendi ipsum rem iusto, sunt inventore magni temporibus aut cupiditate quas, quisquam, blanditiis voluptates?</p>
+        </div>
+        <div class="container food">
+            <img src="./images/bihar.jpg" alt="">
+            <h2>item-12</h2>
+            <p>Nemo dicta, dolore obcaecati totam alias sequi voluptates facere cum, perspiciatis, beatae omnis ab molestias rerum magni vero asperiores odio placeat molestiae ad debitis blanditiis dolores exercitationem dolor? Vel quasi soluta, iure rem consequatur unde distinctio necessitatibus error itaque, dolorum, perferendis non cupiditate nihil molestiae accusantium commodi fugiat suscipit pariatur!</p>
+        </div>
+    </div>
+</body>
+</html>
